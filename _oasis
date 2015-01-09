@@ -1,0 +1,14 @@
+Name:                blktap3-stats
+Version:             0.1
+Synopsis:            Bindings for reading blktap3 stats files
+Authors:             Siddharth Vinothkumar <siddharth.vinothkumar@citrix.com>
+License:             LGPL with OCaml linking exception
+OASISFormat:         0.4
+BuildTools:          ocamlbuild
+Plugins:             META (0.4)
+
+Library blktap3_stats
+  Path:              lib
+  Findlibname:       blktap3-stats
+  Modules:           Blktap3_stats
+  CSources:          blktap3_stats_stubs.c

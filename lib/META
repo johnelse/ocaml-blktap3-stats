@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: 6d526d79feb6254e3da386b032e0cf51)
+version = "0.1"
+description = "Bindings to for readings blktap3 stats files"
+archive(byte) = "blktap3_stats.cma"
+archive(byte, plugin) = "blktap3_stats.cma"
+archive(native) = "blktap3_stats.cmxa"
+archive(native, plugin) = "blktap3_stats.cmxs"
+exists_if = "blktap3_stats.cma"
+# OASIS_STOP
+
